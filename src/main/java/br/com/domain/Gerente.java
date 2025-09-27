@@ -36,4 +36,7 @@ public double setComissao(){
 
     public void setcomissao(int i) {
     }
+
+    public void setComissao(int i) {
+    }
 }

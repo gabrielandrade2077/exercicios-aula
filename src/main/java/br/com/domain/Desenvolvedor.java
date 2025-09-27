@@ -24,4 +24,7 @@ public void registarHoraExtra(int horasExtras){
 
 
     }
+
+    public void registrarhorasExtras(int i) {
+    }
 }
