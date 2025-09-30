@@ -1,4 +1,4 @@
-package br.com.domain;
+package br.com.ex_26set;
 
 public class Estagiario extends Funcionario{
 private int horasTrabalhadas;

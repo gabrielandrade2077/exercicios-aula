@@ -1,4 +1,4 @@
-package br.com.domain;
+package br.com.ex_26set;
 
 public class Gerente extends Funcionario{
     private double bonusPerformance;

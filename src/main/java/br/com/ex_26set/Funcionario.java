@@ -1,4 +1,4 @@
-package br.com.domain;
+package br.com.ex_26set;
 
 public abstract class Funcionario {
     protected String nome;
