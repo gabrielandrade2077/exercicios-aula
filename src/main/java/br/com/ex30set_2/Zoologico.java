@@ -5,7 +5,8 @@ public class Zoologico {
         Animal[] animais = {
                 new Cachorro("Rex", 3, "Labrador"),
                 new Gato("Mimi", 2, true),
-                new Passaro("Piu", 1, 15.5)
+                new Passaro("Piu", 1, 15.5),
+                new Lobo("Lua",10,"Canis lupus Signatus")
         };
 
         System.out.println("=== SOM DOS ANIMAIS ===");

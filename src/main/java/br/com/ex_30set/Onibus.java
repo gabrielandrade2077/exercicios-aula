@@ -1,16 +1,15 @@
 package br.com.ex_30set;
 
-public class Carro extends Veiculo {
+public class Onibus extends Veiculo {
     private int numeroPortas;
+    private int maximoDePassageiros;
     private boolean arCondicionado;
-    private boolean turbo;
 
-    public Carro(String marca, String modelo, int ano,
-                 int numeroPortas, boolean arCondicionado,boolean turbo) {
+    public Onibus(String marca, String modelo, int ano, int numeroPortas, int maximoDePassageiros, boolean arCondicionado) {
         super(marca, modelo, ano);
         this.numeroPortas = numeroPortas;
+        this.maximoDePassageiros = maximoDePassageiros;
         this.arCondicionado = arCondicionado;
-        this.turbo = turbo;
     }
 
     @Override
@@ -18,10 +17,6 @@ public class Carro extends Veiculo {
         super.exibirInfo();
         System.out.println("Portas: " + numeroPortas);
         System.out.println("Ar condicionado: " + (arCondicionado ? "Sim" : "Não"));
-        System.out.println("Turbo: " + (turbo ? "Sim" : "Não"));
-    }
-
-    public void abrirPortaMalas() {
-        System.out.println("Porta-malas aberto!");
+        System.out.println("Maximo de passageiros: " + maximoDePassageiros);
     }
 }

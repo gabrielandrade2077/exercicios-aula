@@ -14,6 +14,7 @@ public class Veiculo {
     }
 
     public void acelerar(double incremento) {
+
         velocidade += incremento;
         System.out.println(modelo + " acelerando para " + velocidade + " km/h");
     }
